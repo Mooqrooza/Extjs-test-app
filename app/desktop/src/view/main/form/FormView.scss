@@ -1,0 +1,48 @@
+.formview {
+  border-radius: 4px;
+  border: none;
+}
+
+.formview-send-button-panel {
+   height: 70px;
+   margin: 10px 0;
+}
+
+.soft-color-background {
+  background-color: #e9f2f3;
+}
+
+.formview-field-and-well-name {
+  padding: 20px 10px;
+  font-size: 16px;
+}
+
+.empty{
+  background-color: rgba(71,173,182,0.05);
+}
+
+.formview-status-label{
+  font-size: 14px;
+  width: 100%;
+  color: $base-color;
+}
+
+.shake-and-redness {
+  animation: shake-and-redness-animate 1s 0s 1;
+}
+
+@keyframes shake-and-redness-animate {
+  10%{ background-color: red; }
+  100% { background-color: transparent; }
+}
+
+.warning-flash{
+  animation: warning-flash-animate 2s 0s 1;
+}
+
+@keyframes warning-flash-animate {
+  0%{ background-color: #fff; }
+  10%{ background-color: #ff5f5f; }
+  30%{ background-color: #ff5f5f; }
+  100% { background-color: #fff; }
+}

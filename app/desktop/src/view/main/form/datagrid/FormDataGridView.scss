@@ -1,0 +1,54 @@
+.formdatagridview {
+  height: 360px;
+  background-color: '#000';
+
+  .x-item-no-tap {
+    display: none;
+  }
+
+  .x-column-header-inner {
+    min-height: 20px;
+  }
+
+  .x-gridcell-body-el {
+    padding: 6px 12px;
+    -webkit-padding: 6px 12px;
+  }
+  .x-celleditor {
+    padding: 2px 10px;
+  }
+
+  .x-column-lines.x-gridcell {
+    border: 1px solid #e2e2e2;
+  }
+
+  .x-header-el {
+    border-width: 1px 1px 1px 0;
+  }
+
+  .x-gridcolumn:nth-child(1) {
+    .x-header-el{ border-width: 1px 1px 1px 1px; }
+  }
+
+  .x-gridcell:nth-child(1) {
+    border-width: 0 1px 0 1px;
+    border-color: #e1e1e1;
+    border-style: solid;
+  }
+
+  .x-cells-el.redFont * {
+    color: red
+  }
+
+  .x-cells-el.greenFont * {
+    color: green;
+  }
+
+  .x-input-el {
+    padding: 2px 12px 3px 12px;
+  }
+
+  .x-icon-el {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.formpivottextareaview {
+
+  *:not(.x-icon-el) {
+    font: 400 14px/16px Roboto, sans-serif;
+  }
+
+  .x-input-el {
+    padding: 8px;
+    border-width: 1px;
+    border-color: #e2e2e2;
+    border-style: solid;
+  }
+  .x-label-el {
+    margin: 0 0 4px 0;
+  }
+
+  .x-label-text-el {
+    color: $base-color;
+  }
+
+  .x-underline-el{
+    display: none;
+  }
+
+}

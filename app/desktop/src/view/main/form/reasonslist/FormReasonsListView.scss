@@ -1,0 +1,31 @@
+.formreasonslistview {
+  margin: 20px 0px;
+
+  *:not(.x-icon-el) {
+    font: 400 14px/16px Roboto, sans-serif;
+  }
+
+  .x-body-el {
+    border-width: 1px 1px 0 1px;
+    border-color: #e2e2e2;
+    border-style: solid;
+  }
+
+  .x-label-el {
+    color: $base-color;
+    padding: 0 0 10px 0;
+  }
+
+  .x-input-el {
+    height: 24px;
+    padding-left: 8px;
+  }
+
+  .x-listitem{
+    color: #000;
+  }
+
+  .x-selected {
+    background-color:  #e9f2f3;
+  }
+}
